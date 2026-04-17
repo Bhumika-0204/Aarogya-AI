@@ -19,57 +19,7 @@ A modern, comprehensive web application for managing healthcare needs using adva
 - **State Management & Data fetching**: React Context, Zustand, React Query
 - **Routing**: React Router DOM
 
-## ⚙️ Environment Setup
 
-1. Copy the example environment file:
-   ```bash
-   cp .env.example .env
-   ```
-
-2. Make sure you fill in all required values in the `.env` file, especially your Firebase configuration:
-   ```env
-   VITE_FIREBASE_API_KEY=your_firebase_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-   VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
-   VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-   VITE_FIREBASE_APP_ID=your_firebase_app_id
-   VITE_FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
-   ```
-   *(Note: The actual `.env` file containing secrets is securely ignored by Git.)*
-
-## 📥 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd Aarogya-AI
-   ```
-
-2. **Install dependencies**
-   Ensure you have Node.js (v22+) installed.
-   ```bash
-   npm install
-   ```
-
-## 💻 Usage
-
-To start the local development server with hot-module replacement (HMR):
-
-```bash
-npm run dev
-```
-The application will be accessible at `http://localhost:5173/` by default.
-
-**To build for production:**
-```bash
-npm run build
-```
-
-**To test the app locally:**
-```bash
-npm run test
-```
 
 ## 📂 Folder Structure
 
@@ -97,9 +47,7 @@ Aarogya-AI/
 
 ## 📸 Screenshots / Demo
 
-*(Add screenshots of the Aarogya AI platform here once available)*
-- Placeholder 1
-- Placeholder 2
+* https://cgg5ufe23i.c38.airoapp.ai/
 
 ## 📝 License
 
